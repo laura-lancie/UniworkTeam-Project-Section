@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `plus2net_event` (
+  `event_id` int(5) NOT NULL AUTO_INCREMENT,
+  `date` date NOT NULL,
+  `detail` varchar(256) NOT NULL,
+  PRIMARY KEY (`event_id`),
+  UNIQUE KEY `event_id` (`event_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=26 ;
+
+--
+-- Dumping data for table `plus2net_event`
+--
+
+INSERT INTO `plus2net_event` (`event_id`, `date`, `detail`) VALUES
+(18, '2017-02-23', '23rd feb 2017 event here'),
+(23, '2017-02-03', '3rd feb event '),
+(24, '2017-02-03', '3rd feb event second '),
+(25, '2017-02-22', '22 feb event ');

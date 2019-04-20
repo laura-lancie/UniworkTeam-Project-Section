@@ -1,0 +1,27 @@
+.msg{ 
+position: fixed;
+top:0px;
+right: 30%;
+display: none;
+FONT-SIZE: 12px;
+font-family: Arial;
+width:500px;
+background-color: red;
+}
+.breadcrumb { 
+	list-style: none; 
+	overflow: hidden; 
+	font: 18px Arial, Arial, Sans-Serif;
+}
+.breadcrumb li { 
+	float: left; 
+}
+.breadcrumb li a {
+	color: white;
+	text-decoration: none; 
+	padding: 10px 10px 10px 25px;
+	background: blue;                  
+	position: relative; 
+	display: block;
+	float: left;
+}
